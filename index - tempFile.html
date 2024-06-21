@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GIT Tutorial</title>
+<style>
+h1{
+	text-align: center;
+    color: #7f12ff;
+}
+h3{
+	margin: 7px 0px;
+}
+p{
+	margin: 0px;
+}
+span{
+    font-weight: 800;
+}
+#container{
+	background: #eadafd;
+    border-radius: 6px;
+    padding: 14px 16px 23px 18px;
+	margin-bottom: 8px;
+}
+</style>
+</head>
+<body>
+
+<h1>Git Commands</h1>
+
+<div id="container">
+	<h3 class="title">git init</h3>
+	<p>This command is used to start a new repository.</p>
+	<p><span>Usage: </span>git init [repository name]</p>
+	<p><span>Example: <span> git init https://github.com/Mounika-sdet-9/git-tutorial.git</p>	
+</div>
+
+<div id="container">
+	<h3 class="title">git clone</h3>
+	<p>This command is used to obtain a repository from an existing URL.</p>
+	<p><span>Usage: </span>git clone [url] </p>
+	<p><span>Example: <span> git clone https://github.com/Mounika-sdet-9/git-tutorial.git</p>	
+</div>
+
+<div id="container">
+	<h3 class="title">git remote</h3>
+	<p>This command is used to connect your local repository to the remote server.</p>
+	<p><span>Usage: </span>git remote add [variable name] [Remote Server Link]</p>
+	<p><span>Example: <span> git remote add origin https://github.com/Mounika-sdet-9/git-tutorial.git</p>	
+</div>
+
+<div id="container">
+	<h3 class="title">git config</h3>
+	<p>This command sets the author name and email address respectively to be used with your commits.</p>
+	<p><span>Usage: </span>git config –global user.name “[name]”</p>	
+	<p><span>Example: <span>git config –global user.name "Mounika"</p>	
+	<p><span>Usage: </span>git config –global user.email “[email address]”</p>
+	<p><span>Example: <span>git config –global user.name "mounika.sdet@gmail.com"</p>	
+</div>
+
+<div id="container">
+	<h3 class="title">git pull</h3>
+	<p>This command fetches and merges changes on the remote server to your working directory.</p>
+	<p><span>Usage: </span>git pull [Repository Link]</p>
+	<p><span>Example: <span> git pull https://github.com/Mounika-sdet-9/git-tutorial.git</p>	
+</div>
+
+<div id="container">
+	<h3 class="title">git status</h3>
+	<p>This command lists all the files that have to be committed.</p>
+	<p><span>Usage: </span>git status</p>
+</div>
+
+<div id="container">
+	<h3 class="title">git diff</h3>
+	<p>This command shows the file differences which are not yet staged.</p>
+	<p><span>Usage: </span>git diff</p>
+</div>
+
+<div id="container">
+	<h3 class="title">git add</h3>
+	<p>This command adds a file to the staging area.</p>
+	<p><span>Usage: </span>git add [file]</p>
+	<p><span>Example: <span> git add index.html</p>
+</div>
+
+<div id="container">
+	<h3 class="title">git commit</h3>
+	<p>This command records or snapshots the file permanently in the version history.</p>
+	<p><span>Usage: </span>git commit -m “[ Type in the commit message]”</p>
+	<p><span>Example: <span>git commit -m "git initial commit"</p>
+</div>
+
+<div id="container">
+	<h3 class="title">git push</h3>
+	<p>
+		This command sends the committed changes of master branch to your remote repository.
+	</p>	
+	<p><span>Usage: </span>git push [variable name] master</p>
+	<p><span>Example: <span>git push origin master</p>
+</div>
+
+<div id="container">
+	<h3 class="title">git branch</h3>
+	<p>
+		This command lists all the local branches in the current repository.
+	</p>	
+	<p><span>Usage: </span>git branch</p>
+	<p>
+		This command creates a new branch.
+	</p>	
+	<p><span>Usage: </span>git branch [branch name]</p>
+	<p><span>Example: <span>git branch newBranch</p>
+</div>
+
+<div id="container">
+	<h3 class="title">git merge</h3>
+</div>
+
+<div id="container">
+	<h3 class="title">git stash</h3>
+	<p>
+		This command temporarily stores all the modified tracked files.
+	</p>	
+	<p><span>Usage: </span>git stash save</p>
+</div>
+
+</body>
+</html>
